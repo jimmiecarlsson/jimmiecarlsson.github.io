@@ -2,21 +2,15 @@
  * Globals
  */
 
+ :root {
 
-/* Custom default button */
-.btn-light {
-  color: #fff;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #712cf9 !important;
-  border-color: #712cf9 !important;
-}
+  --cst-hue: 260;
 
-.btn-light:hover, .btn-light:focus {
-  color: #fff;
-  background-color: #461b9b !important;
-  border-color: #461b9b !important;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
+  --cst-bkg: hsl(var(--cst-hue), 94%, 57%);
+  --cst-bkg-dark: hsl(var(--cst-hue), 70%, 36%);
+  --cst-bkg-light: hsl(var(--cst-hue), 100%, 66%);
+
+ }
 
 
 /*
@@ -28,14 +22,18 @@ body {
   /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
+a {
+  color: var(--cst-bkg-light);
+}
+
 .shadow-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* eller mindre om du bara vill ha toppen/kanter */
+  height: 100%;
   pointer-events: none;
-  z-index: 1030; /* Justera så den ligger över innehåll men under navbarer om du har */
+  z-index: 1030;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .8);
 }
 
@@ -67,6 +65,8 @@ body {
   border-bottom-color: #fff;
 }
 
+/* from ordinary cover bootstrap */
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -75,11 +75,7 @@ body {
         user-select: none;
       }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+      
 
       .b-example-divider {
         width: 100%;
@@ -149,6 +145,8 @@ body {
         display: block !important;
       }
 
+/* my tweaking */
+
 td, th, thead {
   text-align: left;
 }
@@ -160,12 +158,35 @@ td, th, thead {
 
 .content-hero h1 {
   transform: rotate(5deg);
+  transition: transform 1s ease-in-out;
+  color: #712cf9;
 }
 
 .content-hero .l-text {
   transform: rotate(-2deg);
+  transition: transform 1s ease-in-out;
+  color: #712cf9;
   }
 
 .content-hero .l-btn {
-  transform: rotate(4deg);
+  transform: rotate(10deg);
+  transition: transform 0.5s ease-in-out !important;
   }
+
+  /* Custom default button */
+
+.btn-light {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: var(--cst-bkg) !important;
+  border-color: var(--cst-bkg) !important;
+}
+
+.btn-light:hover, .btn-light:focus {
+  color: #fff;
+  background-color: var(--cst-bkg-dark) !important;
+  border-color: var(--cst-bkg-dark) !important;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  transform: rotate(-10deg);
+  transition: transform 0.3s ease-in-out;
+}
