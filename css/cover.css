@@ -60,7 +60,9 @@ body a {
   border-bottom-color: #fff;
 }
 
-/* from ordinary cover bootstrap */
+/*
+* from ordinary Bootstrap Cover
+*/
 
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -69,8 +71,6 @@ body a {
         -moz-user-select: none;
         user-select: none;
       }
-
-      
 
       .b-example-divider {
         width: 100%;
@@ -139,6 +139,7 @@ body a {
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
 
 /* 
 * my tweaking 
@@ -233,6 +234,11 @@ td, th, thead {
   text-decoration: none;
 }
 
+
+/*
+* Responsive Adjustments for mobile
+*/
+
 @media (max-width: 769px) {
 
   .cover-container {
@@ -279,7 +285,4 @@ td, th, thead {
     color: #999;
     display: inline-block;
   }
-
-
-  
 }
