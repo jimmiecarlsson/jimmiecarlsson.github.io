@@ -17,12 +17,7 @@
  * Base structure
  */
 
-body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
-}
-
-a {
+body a {
   color: var(--cst-bkg-light);
 }
 
@@ -145,7 +140,9 @@ a {
         display: block !important;
       }
 
-/* my tweaking */
+/* 
+* my tweaking 
+*/
 
 td, th, thead {
   text-align: left;
@@ -159,34 +156,63 @@ td, th, thead {
 .content-hero h1 {
   transform: rotate(5deg);
   transition: transform 1s ease-in-out;
-  color: #712cf9;
+  color: var(--cst-bkg-light);
 }
 
 .content-hero .l-text {
   transform: rotate(-2deg);
   transition: transform 1s ease-in-out;
-  color: #712cf9;
-  }
-
-.content-hero .l-btn {
-  transform: rotate(10deg);
-  transition: transform 0.5s ease-in-out !important;
+  color: var(--cst-bkg);
   }
 
   /* Custom default button */
 
 .btn-light {
-  color: #fff;
+  
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: var(--cst-bkg) !important;
   border-color: var(--cst-bkg) !important;
+  transform: rotate(5deg);
+  transition: all 0.3s ease-in-out;
 }
 
-.btn-light:hover, .btn-light:focus {
+.l-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.l-btn span:after {
+  /* content: '\<i class=\"bi bi-arrow-down-square\"><\/i>'; */
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.l-btn:hover, .btn-light:focus {
+  cursor: pointer;
   color: #fff;
-  background-color: var(--cst-bkg-dark) !important;
+  /* background-color: var(--cst-bkg-dark) !important; */
   border-color: var(--cst-bkg-dark) !important;
   text-shadow: none; /* Prevent inheritance from `body` */
-  transform: rotate(-10deg);
+  transform: rotate(-5deg);
   transition: transform 0.3s ease-in-out;
+}
+
+.l-btn:hover span {
+  padding-right: 25px;
+}
+
+.l-btn:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.l-btn a {
+  color: #fff;
+  text-decoration: none;
 }
