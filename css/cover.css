@@ -257,7 +257,7 @@ td, th, thead {
   tr {
     display: grid;
     grid-template-columns: 1fr; /* Stapla td ovanpå varandra */
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     padding: 0;
     /* border-bottom: 1px solid #ccc; */
   }
