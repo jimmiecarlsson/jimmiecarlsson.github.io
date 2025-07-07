@@ -5,14 +5,16 @@
 
 /* Custom default button */
 .btn-light {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #712cf9 !important;
+  border-color: #712cf9 !important;
 }
 
 .btn-light:hover, .btn-light:focus {
   color: #fff;
-  background-color: #712cf9 !important;
-  border-color: #712cf9 !important;
+  background-color: #461b9b !important;
+  border-color: #461b9b !important;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -118,7 +120,7 @@ body {
         -webkit-overflow-scrolling: touch;
       }
 
-      .btn-bd-primary {
+     /*  .btn-bd-primary {
         --bd-violet-bg: #712cf9;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
         --bs-btn-font-weight: 600;
@@ -132,7 +134,7 @@ body {
         --bs-btn-active-color: var(--bs-btn-hover-color);
         --bs-btn-active-bg: #5a23c8;
         --bs-btn-active-border-color: #5a23c8;
-      }
+      } */
 
       .bd-mode-toggle {
         z-index: 1500;
