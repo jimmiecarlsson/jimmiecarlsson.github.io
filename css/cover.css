@@ -33,7 +33,7 @@ body a {
 }
 
 .cover-container {
-  max-width: 80em;
+  max-width: 80vw;
 }
 
 
@@ -144,6 +144,22 @@ body a {
 * my tweaking 
 */
 
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 50px;
+}
+
+.main-grid-span3 {
+  grid-column: 1 / span 3;
+}
+
+.main-grid-table {
+  grid-column: 1 / span 3;
+}
+
+
+
 td, th, thead {
   text-align: left;
 }
@@ -215,4 +231,55 @@ td, th, thead {
 .l-btn a {
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 769px) {
+
+  .cover-container {
+    max-width: 100vw;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .main-grid-span3,
+  .main-grid-table {
+    grid-column: 1 / -1;
+  }
+
+    table, thead, tbody, th, td, tr {
+    display: block;
+    border: none;
+  }
+
+  tr {
+    display: grid;
+    grid-template-columns: 1fr; /* Stapla td ovanpå varandra */
+    margin-bottom: 2rem;
+    padding: 0;
+    /* border-bottom: 1px solid #ccc; */
+  }
+
+  td {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  th {
+    display: none;
+  }
+
+  td::before {
+    content: attr(data-label) ':\00a0';
+    font-size: smaller;
+    font-weight: bold;
+    color: #999;
+    display: inline-block;
+  }
+
+
+  
 }
