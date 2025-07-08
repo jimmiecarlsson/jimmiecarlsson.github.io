@@ -264,6 +264,23 @@ section h2 {
   text-decoration: none;
 }
 
+/* 
+* Bootstrap tweaks
+*/
+
+.text-bg-light {
+  background-color: var(--cst-bkg) !important;
+}
+
+.bi-icn-bg {
+  color: var(--cst-bkg) !important;
+  font-size: 2rem !important;
+}
+
+.bi-icn-bg-disable {
+  color: var(--cst-white-dark) !important;
+  font-size: 2rem !important;
+}
 
 /*
 * Responsive Adjustments for mobile
