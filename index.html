@@ -8,6 +8,8 @@
   <meta name="author" content="Bootstrap contributors" />
   <title>.Net fullstack | Jimmie Carlsson</title>
 
+  <link rel="Javascript" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -229,17 +231,19 @@
           <div class="col-lg-6 text-start">
             <div class="row">
               <div class="col-lg-1 text-start">
-                <a href="https://www.linkedin.com/in/jimmie-carlsson" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/jimmie-carlsson" target="_blank" rel="noopener noreferrer"
+                  data-bs-toggle="tooltip" data-bs-title="LinkedIn">
                   <i class="bi bi-linkedin bi-icn-bg"></i>
                 </a>
               </div>
               <div class="col-lg-1 text-start">
-                <a href="https://jimmiecarlsson.github.io" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jimmiecarlsson" target="_blank" rel="noopener noreferrer"
+                  data-bs-toggle="tooltip" data-bs-title="Github">
                   <i class="bi bi-github bi-icn-bg"></i>
                 </a>
               </div>
               <div class="col-lg-1 text-start">
-                <a href="">
+                <a href="#top" data-bs-toggle="tooltip" data-bs-title="Microsoft Teams">
                   <i class="bi bi-microsoft-teams bi-icn-bg-disable"></i>
                 </a>
               </div>
@@ -251,14 +255,20 @@
     <footer class="text-white mt-5 mb-5 bg-dark bg-opacity-100">
       <p>
         Github Page av
-        <a href="https://github.com/jimmiecarlsson">@jimmiecarlsson</a> med <i
-          class="bi bi-bootstrap-fill bi-icn-bg align-middle" alt="Bootrap"></i> .
+        <a href="https://github.com/jimmiecarlsson">@jimmiecarlsson</a> med
+        <a href="http://getbootstrap.com" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip"
+          data-bs-title="Bootstrap 5.3.7"><i class="bi bi-bootstrap-fill bi-icn-bg align-middle" alt="Bootrap"></i></a>
+        .
       </p>
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
 </body>
 
 </html>
