@@ -4,7 +4,7 @@
 
 :root {
 
-  --cst-hue: 20;
+  --cst-hue: 200;
 
   --cst-bkg: hsl(var(--cst-hue), 94%, 57%);
   --cst-bkg-dark: hsl(var(--cst-hue), 70%, 36%);
