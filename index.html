@@ -280,6 +280,16 @@
           </div>
         </div>
       </section>
+      <!-- Next Section content from csv with javascript snippet made by Github Copilot -->
+      <section class="container main-grid-span3" id="sessions">
+        <h2>Vad jag lär mig</h2>
+        <div class="row">
+          <div class="col-lg-6 text-start" id="wordsContainer">
+          </div>
+          <div class="col-lg-6 text-start" id="wordsContainer2">
+          </div>
+        </div>
+      </section>
       <!-- Next Section -->
       <section class="container main-grid-span3" id="contact">
         <h2>Kontakt</h2>
@@ -324,6 +334,38 @@
   <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+  <script>
+    fetch('sessions.csv')
+        .then(response => response.text())
+        .then(text => {
+            let line = text.split('\n')[0].replace(/^\/\/.*\n?/, '');
+            let items = line.split(':').map(item => item.trim()).filter(item => item);
+            const half = Math.ceil(items.length / 2);
+
+            // Split items for each column
+            const leftItems = items.slice(0, half);
+            const rightItems = items.slice(half);
+
+            // Helper to create spans with spaces
+            function createSpans(arr) {
+                const p = document.createElement('p');
+                arr.forEach((word, idx) => {
+                    let span = document.createElement('span');
+                    span.className = 'badge rounded-pill text-bg-light';
+                    span.textContent = word;
+                    p.appendChild(span);
+                    if (idx < arr.length - 1) {
+                        p.appendChild(document.createTextNode(' '));
+                    }
+                });
+                return p;
+            }
+
+            document.getElementById('wordsContainer').appendChild(createSpans(leftItems));
+            document.getElementById('wordsContainer2').appendChild(createSpans(rightItems));
+        });
   </script>
 </body>
 
