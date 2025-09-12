@@ -191,6 +191,14 @@ section h2 {
   margin: 2em 0;
 }
 
+.blazor-color {
+    color: #512BD4;
+}
+
+.bst-color {
+    color: #6f42c1 !important;
+}
+
 /*
   * Custom default button
   */
