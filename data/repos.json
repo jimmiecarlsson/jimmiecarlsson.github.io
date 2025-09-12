@@ -1,5 +1,11 @@
 [
   {
+    "id": 14,
+    "name": "PaginationListConsole",
+    "description": "Labb med LINQ och paginering av en lista",
+    "url": "https://github.com/jimmiecarlsson/PaginationListConsole"
+  },
+  {
     "id": 13,
     "name": "WebAPISwagger",
     "description": "Övning med minimal WebAPI och Swagger",
