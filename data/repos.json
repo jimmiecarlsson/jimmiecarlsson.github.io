@@ -1,57 +1,51 @@
 [
   {
-    "id": 14,
+    "id": 13,
     "name": "WebAPISwagger",
     "description": "Övning med minimal WebAPI och Swagger",
     "url": "https://github.com/jimmiecarlsson/WebAPISwagger"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "MinimalWebAPI",
     "description": "Övning med minimal WebAPI",
     "url": "https://github.com/jimmiecarlsson/MinimalWebAPI"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Scheduler.Cli",
     "description": "Övning med Console app och modularitet",
     "url": "https://github.com/jimmiecarlsson/Scheduler.Cli"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "ConsoleCalculator",
     "description": "Övning med klasser",
     "url": "https://github.com/jimmiecarlsson/ConsoleCalculator"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "ConsoleHangmanApp",
     "description": "Övning med klasser och logik",
     "url": "https://github.com/jimmiecarlsson/ConsoleHangmanApp"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "MethodsExercise",
     "description": "Övning med metoder",
     "url": "https://github.com/jimmiecarlsson/MethodsExercise"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "ForLoop",
     "description": "Övning med loopar",
     "url": "https://github.com/jimmiecarlsson/ForLoop"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "OperatorsAndExpressions",
     "description": "Övning med operators och expressions",
     "url": "https://github.com/jimmiecarlsson/OperatorsAndExpressions"
-  },
-  {
-    "id": 6,
-    "name": "jimmiecarlsson.github.io",
-    "description": "Övning med Github pages (denna sida)",
-    "url": "https://github.com/jimmiecarlsson/jimmiecarlsson.github.io"
   },
   {
     "id": 5,

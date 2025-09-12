@@ -4,13 +4,13 @@
 
 :root {
 
-  --cst-hue: 260;
+  --cst-hue: 105;
 
   --cst-bkg: hsl(var(--cst-hue), 94%, 57%);
   --cst-bkg-dark: hsl(var(--cst-hue), 70%, 36%);
   --cst-bkg-light: hsl(var(--cst-hue), 100%, 66%);
 
-  --cst-white: hsl(0, 0%, 80%);
+  --cst-white: hsl(0, 0%, 95%);
   --cst-white-light: hsl(0, 0%, 100%);
   --cst-white-dark: hsl(0, 0%, 60%);
 }
