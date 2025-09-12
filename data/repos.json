@@ -1,0 +1,86 @@
+[
+  {
+    "id": 14,
+    "name": "WebAPISwagger",
+    "description": "Övning med minimal WebAPI och Swagger",
+    "url": "https://github.com/jimmiecarlsson/WebAPISwagger"
+  },
+  {
+    "id": 13,
+    "name": "MinimalWebAPI",
+    "description": "Övning med minimal WebAPI",
+    "url": "https://github.com/jimmiecarlsson/MinimalWebAPI"
+  },
+  {
+    "id": 12,
+    "name": "Scheduler.Cli",
+    "description": "Övning med Console app och modularitet",
+    "url": "https://github.com/jimmiecarlsson/Scheduler.Cli"
+  },
+  {
+    "id": 11,
+    "name": "ConsoleCalculator",
+    "description": "Övning med klasser",
+    "url": "https://github.com/jimmiecarlsson/ConsoleCalculator"
+  },
+  {
+    "id": 10,
+    "name": "ConsoleHangmanApp",
+    "description": "Övning med klasser och logik",
+    "url": "https://github.com/jimmiecarlsson/ConsoleHangmanApp"
+  },
+  {
+    "id": 9,
+    "name": "MethodsExercise",
+    "description": "Övning med metoder",
+    "url": "https://github.com/jimmiecarlsson/MethodsExercise"
+  },
+  {
+    "id": 8,
+    "name": "ForLoop",
+    "description": "Övning med loopar",
+    "url": "https://github.com/jimmiecarlsson/ForLoop"
+  },
+  {
+    "id": 7,
+    "name": "OperatorsAndExpressions",
+    "description": "Övning med operators och expressions",
+    "url": "https://github.com/jimmiecarlsson/OperatorsAndExpressions"
+  },
+  {
+    "id": 6,
+    "name": "jimmiecarlsson.github.io",
+    "description": "Övning med Github pages (denna sida)",
+    "url": "https://github.com/jimmiecarlsson/jimmiecarlsson.github.io"
+  },
+  {
+    "id": 5,
+    "name": "css-html-playing-cards",
+    "description": "Övning med card och position:relative",
+    "url": "https://github.com/jimmiecarlsson/css-html-playing-cards"
+  },
+  {
+    "id": 4,
+    "name": "css-html-forms",
+    "description": "Övning med forms",
+    "url": "https://github.com/jimmiecarlsson/css-html-forms"
+  },
+  {
+    "id": 3,
+    "name": "css-html-thai",
+    "description": "Övning med html och css",
+    "url": "https://github.com/jimmiecarlsson/css-html-thai"
+  },
+  {
+    "id": 2,
+    "name": "git-merge-lexicon",
+    "description": "Övning med git merge",
+    "url": "https://github.com/jimmiecarlsson/git-merge-lexicon"
+  },
+  {
+    "id": 1,
+    "name": "git-lexicon",
+    "description": "Övning med git",
+    "url": "https://github.com/jimmiecarlsson/git-lexicon"
+  }
+]
