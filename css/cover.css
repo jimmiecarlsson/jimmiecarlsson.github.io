@@ -21,7 +21,8 @@
  */
 
 body a {
-  color: var(--cst-bkg-light);
+    color: var(--cst-bkg-light);
+    text-decoration: none;
 }
 
 .shadow-overlay {
@@ -193,6 +194,10 @@ section h2 {
 
 .blazor-color {
     color: #512BD4;
+}
+
+.blazor-color a {
+    text-decoration: line-through; 
 }
 
 .bst-color {
