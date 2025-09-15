@@ -1,5 +1,11 @@
 [
   {
+    "id": 15,
+    "name": "js-demo",
+    "description": "Labb med JavaScript att hämta ett API (json)",
+    "url": "https://github.com/jimmiecarlsson/js-demo"
+  },
+  {
     "id": 14,
     "name": "PaginationListConsole",
     "description": "Labb med LINQ och paginering av en lista",
