@@ -115,22 +115,6 @@ body a {
   -webkit-overflow-scrolling: touch;
 }
 
-/*  .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      } */
-
 .bd-mode-toggle {
   z-index: 1500;
 }
@@ -159,32 +143,24 @@ body a {
   grid-column: 1 / span 3;
 }
 
-.main-grid-table {
+/*.main-grid-table {
   grid-column: 1 / span 3;
+}*/
+
+/* * Table * */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
 }
 
+table,
 td,
 th,
 thead {
-  text-align: left;
+    text-align: left;
 }
 
-.content-hero {
-  min-height: 50vh;
-  margin-top: 20vh;
-}
-
-.content-hero h1 {
-  transform: rotate(5deg);
-  transition: transform 1s ease-in-out;
-  color: var(--cst-bkg-light);
-}
-
-.content-hero .l-text {
-  transform: rotate(-2deg);
-  transition: transform 1s ease-in-out;
-  color: var(--cst-bkg);
-}
 
 section h2 {
   text-align: left;
@@ -192,6 +168,8 @@ section h2 {
   margin: 2em 0;
 }
 
+
+/* * Footer * */
 .blazor-color {
     color: #512BD4;
 }
@@ -204,98 +182,6 @@ section h2 {
     color: #6f42c1 !important;
 }
 
-/*
-  * Custom default button
-  */
-
-.btn-light {
-  text-shadow: none;
-  background-color: var(--cst-bkg) !important;
-  border-color: var(--cst-bkg) !important;
-  transform: rotate(5deg);
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-light-2 {
-  text-shadow: none;
-  background-color: var(--cst-bkg) !important;
-  border-color: var(--cst-bkg) !important;
-  transform: rotate(-3deg);
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-light-3 {
-  text-shadow: none;
-  background-color: var(--cst-bkg) !important;
-  border-color: var(--cst-bkg) !important;
-  transform: rotate(5deg);
-  transition: all 0.3s ease-in-out;
-}
-
-.l-btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.l-btn span:after {
-  /* content: '\<i class=\"bi bi-arrow-down-square\"><\/i>'; */
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.3s;
-}
-
-.l-btn:hover,
-.btn-light:focus,
-.btn-light-2:focus,
-.btn-light-3:focus {
-  cursor: pointer;
-  color: var(--cst-white);
-  background-color: var(--cst-bkg-dark) !important;
-  border-color: var(--cst-bkg-dark) !important;
-  text-shadow: none;
-  /* transform: rotate(-5deg);
-  transition: transform 0.3s ease-in-out; */
-  animation: float-btn 1.5s ease-in-out infinite;
-}
-
-@keyframes float-btn {
-  0% {}
-
-  10% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-5px);
-  }
-
-  60% {}
-
-  90% {
-    transform: translateY(0);
-  }
-
-  100% {}
-}
-
-.l-btn:hover span {
-  padding-right: 25px;
-}
-
-.l-btn:hover span::after {
-  opacity: 1;
-  right: 0;
-}
-
-.l-btn a {
-  color: var(--cst-white);
-  text-decoration: none;
-}
 
 /* 
 * Bootstrap tweaks
@@ -321,9 +207,10 @@ section h2 {
 
 @media (max-width: 993px) {
 
-  .cover-container {
-    max-width: 100vw;
-  }
+    .cover-container {
+        max-width: 80vw;
+        padding: 0 1rem;
+    }
 
   .main-grid {
     grid-template-columns: 1fr;
@@ -363,10 +250,36 @@ section h2 {
   }
 
   td::before {
-    content: attr(data-label) ':\00a0';
     font-size: smaller;
     font-weight: bold;
     color: var(--cst-white-dark);
     display: inline-block;
   }
+
+    /* * Button row * */
+    .btn-row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+
+        .btn-row .l-btn {
+            width: 100%;
+            padding: 0.75rem;
+            max-width: 350px;
+        }
+    /* * Content Hero * */
+    .content-hero {
+        min-height: 100vh;
+        margin-top: 5vh;
+    }
+
+        .content-hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .l-text {
+            max-width: 350px;
+            margin-bottom: 2rem;
+        }
 }
