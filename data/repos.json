@@ -1,33 +1,33 @@
 [
   {
     "id": 15,
+    "name": "Scheduler.Cli => Scheduler.Web",
+    "description": "Övning med Console app och modularitet som sedan blir ett WebAPI",
+    "url": "https://github.com/jimmiecarlsson/Scheduler.Cli"
+  },
+  {
+    "id": 14,
     "name": "js-demo",
     "description": "Labb med JavaScript att hämta ett API (json)",
     "url": "https://github.com/jimmiecarlsson/js-demo"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "PaginationListConsole",
     "description": "Labb med LINQ och paginering av en lista",
     "url": "https://github.com/jimmiecarlsson/PaginationListConsole"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "WebAPISwagger",
     "description": "Övning med minimal WebAPI och Swagger",
     "url": "https://github.com/jimmiecarlsson/WebAPISwagger"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "MinimalWebAPI",
     "description": "Övning med minimal WebAPI",
     "url": "https://github.com/jimmiecarlsson/MinimalWebAPI"
-  },
-  {
-    "id": 11,
-    "name": "Scheduler.Cli",
-    "description": "Övning med Console app och modularitet",
-    "url": "https://github.com/jimmiecarlsson/Scheduler.Cli"
   },
   {
     "id": 10,
