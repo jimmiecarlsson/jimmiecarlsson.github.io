@@ -47,5 +47,9 @@
   "Calling API (JS)",
   "Browser update (JS)",
   "Typing (JS)",
-  "Create elements (JS)"
+  "Create elements (JS)",
+  "Handling forms (JS)",
+  "JSON (JS)",
+  "Handling data (JS)",
+  "Stateful apps (JS)"
 ]
