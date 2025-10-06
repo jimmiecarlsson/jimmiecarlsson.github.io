@@ -1,9 +1,15 @@
 [
   {
+    "id": 17,
+    "name": "SokobanGame",
+    "description": "En övning med JavaScript och skapa element",
+    "url": "https://github.com/jimmiecarlsson/SokobanGame"
+  },
+  {
     "id": 16,
     "name": "SvgEditor",
     "description": "Ett labb projekt med JavaScript och SVG",
-    "url": "https://github.com/jimmiecarlsson/SvgEditor.git"
+    "url": "https://github.com/jimmiecarlsson/SvgEditor"
   },
   {
     "id": 15,
