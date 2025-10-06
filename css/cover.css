@@ -111,6 +111,13 @@ section h2 {
     margin: 2em 0;
 }
 
+td {
+    white-space: normal; /* Tillåt radbrytning */
+    word-wrap: break-word; /* Äldre variant */
+    overflow-wrap: anywhere; /* Modernare och bättre */
+    hyphens: auto; /* Bryt ord naturligt vid behov */
+}
+
 /* * Bootstrap tweaks * */
 .text-bg-light {
     background-color: var(--cst-bkg) !important;
@@ -130,8 +137,8 @@ section h2 {
 @media (max-width: 993px) {
 
     .cover-container {
-        max-width: 80vw;
-        padding: 0 1rem;
+        max-width: 100vw;
+        padding: 0 0.5rem;
     }
 
     .main-grid {
@@ -178,6 +185,7 @@ section h2 {
         display: inline-block;
     }
 
+
     /* * Button row * */
     .btn-row {
         flex-direction: column;
@@ -201,7 +209,7 @@ section h2 {
         }
 
     .l-text {
-        max-width: 350px;
+        /*max-width: 350px;*/
         margin-bottom: 2rem;
     }
 }
