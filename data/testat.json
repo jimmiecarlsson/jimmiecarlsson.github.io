@@ -1,15 +1,21 @@
 [
-  "ASP.NET Core",
   "React",
+  "Vue.js",
   "Umbraco",
   "Astro",
   "Python",
   "YAML",
-  "CI/CD",
   "Linux",
+  "Rest API",
+  "Tailwind",
+  "Bulma",
+  "Foundation",
+  "Skeleton",
   "Ubuntu",
   "Raspberry Pi",
   "Clean Architecture",
-  "GitHub Actions",
-  "WebAssembly"
+  "WebAssembly",
+  "DotnetNuke",
+  "Optimizely",
+  "MongoDB"
 ]
