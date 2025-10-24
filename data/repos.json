@@ -1,5 +1,17 @@
 [
   {
+    "id": 18,
+    "name": "EntityFrameworkCoreWebAPI",
+    "description": "Övning med Entity Framework och databas",
+    "url": "https://github.com/jimmiecarlsson/EntityFrameworkCoreWebAPI"
+  },
+  {
+    "id": 18,
+    "name": "Scheduler.Web => database",
+    "description": "Övning med WebAPI kopplad till en databas",
+    "url": "https://github.com/jimmiecarlsson/Scheduler.Cli/tree/nextstep"
+  },
+  {
     "id": 17,
     "name": "SokobanGame",
     "description": "En övning med JavaScript och skapa element",

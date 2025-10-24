@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "wasm.jimmiecarlsson.github.io",
   "resources": {
-    "hash": "sha256-luyxNDp8S9A21UXZUY7M6/Ko9m2iS8BT5Ro+kK8Fb5M=",
+    "hash": "sha256-3jPu8A0HVonTj1tQWmmx2/jVonfcPnfp/VP1LDcGyH4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.59s7tdudd9.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.l09973bxi4.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -36,7 +36,7 @@
       "System.Text.Json.nfx6s832ck.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.5gjltihx5v.wasm": "System.Text.RegularExpressions.wasm",
       "System.Private.CoreLib.ro9xsyznw9.wasm": "System.Private.CoreLib.wasm",
-      "wasm.jimmiecarlsson.github.io.kl305xrw0n.wasm": "wasm.jimmiecarlsson.github.io.wasm",
+      "wasm.jimmiecarlsson.github.io.dhnwusqfwv.wasm": "wasm.jimmiecarlsson.github.io.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.l4ptthxatg.js": "dotnet.native.js",
       "dotnet.native.d2w7colv7e.wasm": "dotnet.native.wasm",
@@ -95,7 +95,7 @@
       "System.Text.Encodings.Web.9rjk8as0i7.wasm": "sha256-+y7W1KnwkH6Qwrz33TSxWAn666Cbuzvn6QwDB/OpQgI=",
       "System.Text.Json.nfx6s832ck.wasm": "sha256-PaUiTGEAWpmpBoNQBQG4G044wn6I9CKQKZKVBLBsY2w=",
       "System.Text.RegularExpressions.5gjltihx5v.wasm": "sha256-tWq9vht0rY9iM6tvHI4CaV2Nogm0sR+EJEOy72TVrIk=",
-      "wasm.jimmiecarlsson.github.io.kl305xrw0n.wasm": "sha256-yPSFXfL24ca//HTf7E6LJLu10Q36H8uJIipMYYtHvO0="
+      "wasm.jimmiecarlsson.github.io.dhnwusqfwv.wasm": "sha256-H5OkSCeO28qXDPk6719O5PDPmcJvImBl0QCRXco1UfI="
     }
   },
   "cacheBootResources": true,
