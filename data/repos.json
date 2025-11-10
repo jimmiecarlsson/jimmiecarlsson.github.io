@@ -1,6 +1,12 @@
 [
   {
-    "id": 18,
+    "id": 20,
+    "name": "ReactAxiosApp",
+    "description": "Övning med Axios och hämta data från libris.kb.se",
+    "url": "https://github.com/jimmiecarlsson/EntityFrameworkCoreWebAPI"
+  },
+  {
+    "id": 19,
     "name": "EntityFrameworkCoreWebAPI",
     "description": "Övning med Entity Framework och databas",
     "url": "https://github.com/jimmiecarlsson/EntityFrameworkCoreWebAPI"
