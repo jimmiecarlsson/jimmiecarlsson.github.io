@@ -74,5 +74,14 @@
   "useState",
   "API data",
   "Axios",
-  "useEffect"
+  "useEffect",
+  "React hook form",
+  "React styling",
+  "React router",
+  "Tanstack Table",
+  "React Context",
+  "DnD Kit",
+  "Jotai",
+  "Zustand",
+  "React Query"
 ]
