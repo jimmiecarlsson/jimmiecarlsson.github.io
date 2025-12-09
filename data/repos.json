@@ -1,5 +1,23 @@
 [
   {
+    "id": 23,
+    "name": "EFIdentityLab",
+    "description": "Övning med Entity Framework Core, Identity och SQLite",
+    "url": "https://github.com/jimmiecarlsson/EFIdentityLab"
+  },
+  {
+    "id": 22,
+    "name": "ReactJoataiLab",
+    "description": "Övning med Jotai",
+    "url": "https://github.com/jimmiecarlsson/ReactJotaiLab"
+  },
+  {
+    "id": 21,
+    "name": "ReactZustandLab",
+    "description": "Övning med Zustand ",
+    "url": "https://github.com/jimmiecarlsson/ReactZustandLab"
+  },
+  {
     "id": 20,
     "name": "ReactAxiosApp",
     "description": "Övning med Axios och hämta data från libris.kb.se",

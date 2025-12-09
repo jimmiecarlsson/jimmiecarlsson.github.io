@@ -13,6 +13,7 @@
   "MS SQL",
   "MySQL",
   "SQLite",
+  "Postgres",
   "Git",
   "Docker",
   "AWS",
@@ -25,5 +26,6 @@
   "Trello",
   "MVC",
   "GitHub Actions",
-  "CI/CD"
+  "CI/CD",
+  "Vertical Slice"
 ]
